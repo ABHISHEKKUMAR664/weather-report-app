@@ -1,0 +1,102 @@
+*{
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+}
+
+body {
+   height: 100px;
+   background-color:whitesmoke;
+}
+
+#search-form {
+   display: flex;
+   justify-content: center;
+   align-content: center;
+   margin-top: 100px;
+}
+
+#temp {
+   text-align: center;
+}
+
+#temp #temp-unit {
+   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   font-size: 1.5rem;
+   color: rgb(230, 18, 64);
+}
+
+#temp #temp-value {
+   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   font-size: 2rem;
+   color: rgb(230, 18, 64);
+}
+
+#climate {
+   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   font-size: 2.5rem;
+   color: rgb(82, 22, 179);
+   text-align: center;
+}
+
+#location {
+   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   font-size: 2.5rem;
+   color: rgb(48, 214, 48);
+   text-align: center;
+}
+
+#temp-icon{
+   margin: 1rem;
+   width: 150px;
+   height: auto;
+}
+
+main {
+   padding: 20px;
+   margin-top:10px;
+   background-color: rgb(200, 240, 233);
+   border-radius: 20px;
+   width: 360px;
+   height: 360px;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   box-shadow: 10px 10px 20px 10px rgb(243, 242, 182);
+}
+
+#search-button {
+   color: white;
+   text-decoration: none;
+   text-transform: uppercase;
+   background: rgb(172, 50, 50);
+   border-radius: 6px;
+   margin-left: 5px;
+   padding: 10px;
+   border: 2px solid goldenrod;
+   display: inline-block;
+   transition: all 0.4 ease 0s;
+}
+
+#search-button:hover {
+   background: greenyellow;
+   color: black;
+   border-color: cornflowerblue;
+   transition: all 0.4s ease 0s;
+}
+
+#search-input {
+   width: 260px;
+   overflow: hidden;
+   font-size: 20px;
+   margin:8px;
+   padding: 8px 0;
+   border-bottom: 3px solid red;
+   color: rgb(71, 22, 151);
+   outline: none;
+   background: none;
+}
+
+input {
+   border: none;
+}
